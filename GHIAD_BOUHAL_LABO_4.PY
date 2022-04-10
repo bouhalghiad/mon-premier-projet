@@ -223,16 +223,16 @@ def operation_admin(nbr,lstcomp,client1,client2,client3,client4):
     elif nbr==3:
         compte=input("Entrer le numéro de compte dont vous voulez changer le taux d'interet: ")
         if compte==encryptage_decryptage(client1[0]):
-            taux=str(input("Entrer le nouveau taux d'interet: "))
-            client1[5]=taux
+            taux=str(input("Entrer le nouveau taux d'interet: "))+"%"
+            client1[5]=encryptage_decryptage(taux)
             base_donnée(lstcomp,client1,client2,client3,client4)
         if compte==encryptage_decryptage(client2[0]):
-            taux=str(input("Entrer le nouveau taux d'interet: "))
-            client2[5]=taux
+            taux=str(input("Entrer le nouveau taux d'interet: "))+"%"
+            client2[5]=encryptage_decryptage(taux)
             base_donnée(lstcomp,client1,client2,client3,client4)
         if compte==encryptage_decryptage(client3[0]):
-            taux=str(input("Entrer le nouveau taux d'interet: "))
-            client3[5]=taux
+            taux=str(input("Entrer le nouveau taux d'interet: "))+"%"
+            client3[5]=encryptage_decryptage(taux)
             base_donnée(lstcomp,client1,client2,client3,client4)
             
     return None     
