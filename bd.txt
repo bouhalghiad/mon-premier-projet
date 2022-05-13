@@ -1,0 +1,5 @@
+Numéro_de_compt  Mot_de_passe  Montant_chèque  Montant_épargne  Montant_placement  taux_intérête  
+4321             1erutiov         001              0001             00001            %8.1             
+6543             321tahc          051              0002             00052            %3               
+3333             4321             5                001              0001             25               
+0000             nimda            0                0                0                %0               
